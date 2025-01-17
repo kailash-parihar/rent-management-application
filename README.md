@@ -28,7 +28,7 @@ This platform helps property owners manage their properties with ease, while off
 
 1. Clone the repository: `git clone https://github.com/kailash-parihar/rent-management-application.git`
 2. Install dependencies: `npm install`
-3. Run the application: `npm start`
+3. Run the application: `npm run dev`
 
 ## 📞 Contact:
 

@@ -2,26 +2,34 @@
 
 .header {
     display: flex;
-    justify-content: space-between;
+    justify-content: center;
     align-items: center;
     background-color: #ffffff;
     box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    padding: 0.5rem;
+}
+
+.brand-logo {
+   display: flex;
+   justify-content: center;
+   align-items: center;
 }
 
 .header-logo {
-    font-size: 1.5rem;
+    font-size: 3rem;
     font-weight: bold;
+    list-style: none;
     color: #333;
 }
 
 .nav-links {
     display: flex;
     list-style: none;
-    font-size: 1.5rem;
+    font-size: 2.2rem;
 }
 
 .nav-links li {
-    margin-left: 2rem;
+    margin-left: 3.2rem;
 }
 
 .nav-links a {

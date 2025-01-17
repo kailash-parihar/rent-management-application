@@ -2,14 +2,16 @@
 import React from "react";
 import { Link } from "react-router-dom";
 import NavItem from "./NavItem";
-import "../styles/header.css";
+import "../styles/Header.css";
 
 const Header = () => {
   return (
     <header className="header">
-      <Link to="/" className="header-logo">
-        Rento
-      </Link>
+      <div className="brand-logo">
+        <Link to="/" className="header-logo">
+          Rento
+        </Link>
+      </div>
       <nav>
         <ul className="nav-links">
           <NavItem path="/" label="Home" />
