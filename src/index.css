@@ -31,3 +31,9 @@ html {
     /* This sets the base font size to 62.5%, so that equates to 1rem = 10px. */
     scroll-behavior: smooth;
 }
+
+body {
+    /* background-color: #f8f9fa; */
+    background-color: #ffffff;
+    margin-top: 7rem;
+}

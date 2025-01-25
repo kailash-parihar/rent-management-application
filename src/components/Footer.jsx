@@ -6,8 +6,24 @@ import "../styles/Footer.css";
 const Footer = () => {
   return (
     <footer className="footer">
-
       <div className="footer-top">
+        <div>
+          <a href="/" target="_blank" rel="noopener noreferrer">
+            <img
+              src="../src/assets/svg/app-store-badge.svg"
+              type="image/svg+xml"
+              alt="Download on the App Store"
+            />
+          </a>
+          &nbsp; &nbsp; &nbsp;
+          <a href="/" target="_blank" rel="noopener noreferrer">
+            <img
+              src="../src/assets/svg/google-play-badge.svg"
+              type="image/svg+xml"
+              alt="Get it on Google Play"
+            />
+          </a>
+        </div>
         <p className="footer-description">
           Our recommendations are based on the properties you've viewed and
           saved, as well as the filters you've applied. We track your search
@@ -23,36 +39,77 @@ const Footer = () => {
           accommodation, please do not hesitate to contact us. We're here for
           you, ensuring your experience is exceptional.
         </p>
-        
       </div>
 
       <div className="footer-social-icons">
-          <a href="https://www.facebook.com" target="_blank" rel="noopener noreferrer" ><i className="fab fa-facebook-f"></i></a>
-          <a href="https://www.twitter.com" target="_blank" rel="noopener noreferrer"><i className="fab fa-twitter"></i></a>
-          <a href="https://www.linkedin.com" target="_blank" rel="noopener noreferrer"><i className="fab fa-linkedin-in"></i></a>
-          <a href="https://www.instagram.com" target="_blank" rel="noopener noreferrer"><i className="fab fa-instagram"></i></a>
-          <a href="https://www.youtube.com" target="_blank" rel="noopener noreferrer"><i className="fab fa-youtube"></i></a>
-        </div>
+        <a
+          href="https://www.facebook.com"
+          target="_blank"
+          rel="noopener noreferrer"
+        >
+          <i className="fab fa-facebook-f"></i>
+        </a>
+        <a
+          href="https://www.twitter.com"
+          target="_blank"
+          rel="noopener noreferrer"
+        >
+          <i className="fab fa-twitter"></i>
+        </a>
+        <a
+          href="https://www.linkedin.com"
+          target="_blank"
+          rel="noopener noreferrer"
+        >
+          <i className="fab fa-linkedin-in"></i>
+        </a>
+        <a
+          href="https://www.instagram.com"
+          target="_blank"
+          rel="noopener noreferrer"
+        >
+          <i className="fab fa-instagram"></i>
+        </a>
+        <a
+          href="https://www.youtube.com"
+          target="_blank"
+          rel="noopener noreferrer"
+        >
+          <i className="fab fa-youtube"></i>
+        </a>
+      </div>
 
       <div className="footer-bottom">
-       
         <ul className="footer-links">
-          <li><Link to="/privacy-policy">Privacy Policies</Link></li>
-          <li><Link to="/terms-of-use">Terms of Use</Link></li>
-          <li><Link to="/contact-us">Contact Us</Link></li>
-          <li><Link to="/about-us">About Us</Link></li>
-          <li><Link to="/careers">Careers</Link></li>
-          <li><Link to="/help">Help</Link></li>
-
+          <li>
+            <Link to="/privacy-policy">Privacy Policies</Link>
+          </li>
+          <li>
+            <Link to="/terms-of-use">Terms of Use</Link>
+          </li>
+          <li>
+            <Link to="/contact-us">Contact Us</Link>
+          </li>
+          <li>
+            <Link to="/about-us">About Us</Link>
+          </li>
+          <li>
+            <Link to="/careers">Careers</Link>
+          </li>
+          <li>
+            <Link to="/help">Help</Link>
+          </li>
         </ul>
       </div>
 
       <div className="footer-copyright">
-        
         <div>
-          <p> &copy; 2025 All Rights Reserved <span>|</span> Livora Tech Solutions Pvt. Ltd.</p>
+          <p>
+            {" "}
+            &copy; 2025 All Rights Reserved <span>|</span> Livora Tech Solutions
+            Pvt. Ltd.
+          </p>
         </div>
-
       </div>
     </footer>
   );
