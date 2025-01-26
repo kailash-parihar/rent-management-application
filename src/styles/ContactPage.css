@@ -1,0 +1,137 @@
+/* ContactForm.css */
+.contact-page {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding-left: 2rem;
+    width: 85%;
+    margin: 0px auto;
+    margin-top: 10rem;
+    border-radius: 5rem;
+    background-color: rgb(255, 255, 243);
+}
+
+
+.details {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    width: 50%;
+    padding: 5rem;
+    margin-right: 5rem;
+    align-items: center;
+    border-radius: 5rem;
+    background-color: rgb(255, 255, 243);
+    box-shadow: 8px 0px 10rem rgba(220, 218, 120, 0.73);
+    text-align: center;
+}
+
+.details h1 {
+    box-shadow: 8px 0px 10rem rgba(220, 218, 120, 0.73);
+    font-size: 7rem;
+    background-color: #ffffff;
+    padding: 0px 8rem;
+    border-radius: 20rem;
+}
+
+.details h2 {
+    font-size: 4.5rem;
+}
+
+.details h3,
+h4 {
+    padding: 2px 2rem;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    border-radius: 3rem;
+    font-size: 3.5rem;
+}
+
+.contact-form-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 1rem;
+    border-radius: 5rem;
+    width: 40%;
+    margin: 0 auto;
+    margin-right: 10rem;
+    box-shadow: 8px 0px 10rem rgba(220, 218, 120, 0.73);
+    /* box-shadow: 0 4px ?z8px rgba(0, 0, 0, 0.1); */
+}
+
+.contact-form {
+
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    padding: 2rem;
+    border-radius: 4rem;
+}
+
+.fullname {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    margin: 0.5rem auto;
+    width: 100%;
+}
+
+.form-group {
+    width: 100%;
+    border-radius: 2.5rem;
+    margin: 0rem auto;
+}
+
+.form-group label {
+    display: block;
+    margin-bottom: 0.5rem;
+    margin-left: 1rem;
+    font-size: large;
+    color: #666666;
+}
+
+.form-group input,
+.form-group textarea {
+    background-color: #e6e6e68f;
+    width: 100%;
+    padding: 1.5rem;
+    border-style: none;
+    outline: none;
+    border-radius: 2.5rem;
+    touch-action: manipulation;
+}
+
+.form-group textarea {
+    resize: vertical;
+    height: 10rem;
+}
+
+button {
+    padding: 0.75rem;
+    border: none;
+    background-color: #4667ea;
+    color: white;
+    font-size: 2rem;
+    border-radius: 2.5rem;
+    cursor: pointer;
+    margin-top: 0.75rem;
+    transition: background-color 0.3s;
+}
+
+button:hover {
+    box-shadow: 0 6px 12px rgba(0, 91, 181, 0.5);
+}
+
+.thank-you-message {
+    text-align: center;
+}
+
+.thank-you-message h2 {
+    font-size: 2rem;
+    color: #0073e6;
+}
+
+.thank-you-message p {
+    font-size: 1.2rem;
+}
