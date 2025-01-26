@@ -1,6 +1,7 @@
 import React from "react";
 import "../styles/Home.css";
 import Testimonials from "../components/Carousel.jsx";
+import Container from "../components/Container.jsx";
 
 const HomePage = () => {
   return (
@@ -79,6 +80,7 @@ const HomePage = () => {
           </div>{" "}
         </div>
       </div>
+      <Container />
       <Testimonials />
     </>
   );
