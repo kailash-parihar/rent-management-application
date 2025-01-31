@@ -1,0 +1,68 @@
+/* Why Choose Rento Section */
+.why-choose-rento {
+    max-width: 85%;
+    margin: 0px auto;
+    /* margin-top: 15rem; */
+    padding: 2rem;
+    text-align: center;
+    /* border-radius: 15rem; */
+    /* background-color: rgb(255, 255, 243); */
+    /* box-shadow: 0px 0px 25rem rgb(249, 255, 243); */
+}
+
+.why-choose-rento>p {
+    font-size: 1.8rem;
+    font-weight: bolder;
+    margin-bottom: 5rem;
+    border-radius: 10rem;
+}
+
+.section-description {
+    font-size: 2rem;
+    font-weight: bolder;
+    margin-bottom: 5rem;
+}
+
+.benefits-container {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+    gap: 3rem;
+    margin-bottom: 40px;
+}
+
+.benefit-card {
+    background-color: rgb(255, 255, 229);
+    border-radius: 3rem;
+    padding: 2rem;
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.benefit-card:hover {
+    transform: translateY(-10px);
+}
+
+.benefit-title {
+    font-size: 2rem;
+    color: #444;
+    margin-bottom: 1.5rem;
+}
+
+.benefit-description {
+    font-size: 1.5rem;
+    color: #666;
+}
+
+.explore-button {
+    padding: 15px 30px;
+    background-color: #5b57da;
+    color: white;
+    border: none;
+    border-radius: 5rem;
+    font-size: 2rem;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+.explore-button:hover {
+    background-color: #0056b3;
+}

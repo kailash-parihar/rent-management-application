@@ -7,23 +7,7 @@ const Footer = () => {
   return (
     <footer className="footer">
       <div className="footer-top">
-        <div>
-          <a href="/" target="_blank" rel="noopener noreferrer">
-            <img
-              src="../src/assets/svg/app-store-badge.svg"
-              type="image/svg+xml"
-              alt="Download on the App Store"
-            />
-          </a>
-          &nbsp; &nbsp; &nbsp;
-          <a href="/" target="_blank" rel="noopener noreferrer">
-            <img
-              src="../src/assets/svg/google-play-badge.svg"
-              type="image/svg+xml"
-              alt="Get it on Google Play"
-            />
-          </a>
-        </div>
+        
         <p className="footer-description">
           Our recommendations are based on the properties you've viewed and
           saved, as well as the filters you've applied. We track your search
@@ -94,10 +78,7 @@ const Footer = () => {
             <Link to="/about-us">About Us</Link>
           </li>
           <li>
-            <Link to="/careers">Careers</Link>
-          </li>
-          <li>
-            <Link to="/help">Help</Link>
+            <Link to="/faq">faq</Link>
           </li>
         </ul>
       </div>

@@ -1,0 +1,117 @@
+/* General Styles */
+.pricing {
+    text-align: center;
+    padding: 50px 20px;
+    /* background-color: #f9fafb; */
+}
+
+.pricing h1 {
+    font-size: 3.5rem;
+    font-weight: 700;
+    color: #1a1a1a;
+    margin-bottom: 10px;
+}
+
+.pricing p {
+    font-size: 2rem;
+    font-weight: 500;
+    margin-bottom: 3rem;
+}
+
+/* Pricing Grid */
+.pricing-grid {
+    display: flex;
+    justify-content: center;
+    gap: 5rem;
+    flex-wrap: wrap;
+}
+
+/* Pricing Card */
+.pricing-card {
+    background: #fff;
+    border-radius: 5rem;
+    box-shadow: 0 4px 20px rgba(0, 0, 0, 0.1);
+    padding: 5rem;
+    width: 35rem;
+    text-align: center;
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.pricing-card:hover {
+    transform: translateY(-10px);
+    box-shadow: 0 8px 30px rgba(0, 0, 0, 0.15);
+}
+
+.pricing-card h3 {
+    font-size: 2.5rem;
+    color: #1a1a1a;
+    margin-bottom: 15px;
+}
+
+.pricing-card h2 {
+    font-size: 2rem;
+    /* color: #2c3e50; */
+    margin-bottom: 20px;
+}
+
+.pricing-card ul {
+    list-style: none;
+    padding: 0;
+    margin-bottom: 3rem;
+}
+
+.pricing-card ul li {
+    font-size: 2rem;
+    font-weight: 500;
+    color: #555;
+    margin-bottom: 1rem;
+}
+
+.pricing-card ul li::before {
+    content: "✔";
+    color: #4caf50;
+    margin-right: 10px;
+}
+
+/* Pricing Button */
+.pricing-button {
+    background: #4caf50;
+    color: #fff;
+    border: none;
+    padding: 12px 30px;
+    font-size: 2rem;
+    font-weight: 500;
+    border-radius: 2.5rem;
+    cursor: pointer;
+    transition: background 0.3s ease;
+}
+
+.pricing-button:hover {
+    background: #45a049;
+}
+
+/* Custom Plan Specific Styles */
+.pricing-card:nth-child(3) h2 {
+    color: #e67e22;
+}
+
+.pricing-card:nth-child(3) .pricing-button {
+    background: #e67e22;
+}
+
+.pricing-card:nth-child(3) .pricing-button:hover {
+    background: #d35400;
+}
+
+/* Responsive Design */
+@media (max-width: 768px) {
+    .pricing-grid {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .pricing-card {
+        width: 90%;
+        margin-bottom: 20px;
+    }
+}

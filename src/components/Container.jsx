@@ -12,7 +12,7 @@ const Container = () => {
         </div>
 
         <div className="container-sections">
-          <div className="left-section left-section-alignment">
+          <div className="left-section">
             <h2>Rent Reminders</h2>
             <p className="description">
               Never miss a payment. Automatically notify tenants of upcoming due
@@ -36,7 +36,11 @@ const Container = () => {
           </div>
 
           <div className="right-section">
-            <img src="../src/assets/images/manual-vs-automated.png" alt="manual-vs-automated" className="image" />
+            <img
+              src="../src/assets/images/manual-vs-automated.png"
+              alt="manual-vs-automated"
+              className="image"
+            />
           </div>
         </div>
       </div>
@@ -73,7 +77,11 @@ const Container = () => {
             </p>
           </div>
           <div className="right-section">
-            <img src="../src/assets/images/property-management-auto.png" alt="property-management" className="image" />
+            <img
+              src="../src/assets/images/property-management-auto.png"
+              alt="property-management"
+              className="image"
+            />
           </div>
         </div>
       </div>

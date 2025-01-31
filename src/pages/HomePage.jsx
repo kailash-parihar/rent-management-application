@@ -1,19 +1,20 @@
 import React from "react";
 import "../styles/Home.css";
-import Testimonials from "../components/Carousel.jsx";
+import Carousel from "../components/Carousel.jsx";
 import Container from "../components/Container.jsx";
-
+import WhyChooseRento from "../components/WhyChooseRento.jsx";
+import MobileAppSection from "../components/MobileAppSection.jsx";
 const HomePage = () => {
   return (
     <>
-      <div className="search-bar">
+      {/* <div className="search-bar">
         <input
           type="text"
           className="search-input"
           placeholder="Search an address, Rooms, Neighborhood, city or ZIP code"
         />
         <button className="search-button">Search</button>
-      </div>
+      </div> */}
 
       <div className="hero-section">
         <h1 className="hero-title">Automate Your Rental Business</h1>
@@ -80,8 +81,10 @@ const HomePage = () => {
           </div>{" "}
         </div>
       </div>
+      <Carousel />
       <Container />
-      <Testimonials />
+      <WhyChooseRento />
+      <MobileAppSection />
     </>
   );
 };
