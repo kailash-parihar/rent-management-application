@@ -9,6 +9,11 @@
     color: gainsboro
 }
 
+.footer h2 {
+    font-size: 3rem;
+    margin-top: 2rem;
+}
+
 .footer-description {
     margin: 1.6rem 5rem;
     padding: 0 10rem;
@@ -34,7 +39,7 @@
 }
 
 .footer-social-icons a {
-    color: gainsboro; 
+    color: gainsboro;
     font-size: 2.2rem;
     transition: color 0.3s;
     margin-bottom: 1rem;

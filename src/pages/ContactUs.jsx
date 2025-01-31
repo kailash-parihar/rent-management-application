@@ -31,7 +31,8 @@ const ContactUs = () => {
 
       <div className="contact-info">
         <p>
-          <strong>Email:</strong> contact@rento.com
+          <strong>Email : </strong>
+          <a href="mailto:support@rento.com">support@rento.com</a>.
         </p>
         <p>
           <strong>Phone:</strong> +91 8955363567
@@ -82,14 +83,6 @@ const ContactUs = () => {
         />
         <button type="submit">Send Message</button>
       </form>
-
-      <div className="social-media">
-        <h3>Connect with Us</h3>
-        <div className="social-links">
-          <a href="#">Facebook</a> | <a href="#">Twitter</a> |{" "}
-          <a href="#">LinkedIn</a> | <a href="#">Instagram</a>
-        </div>
-      </div>
     </div>
   );
 };

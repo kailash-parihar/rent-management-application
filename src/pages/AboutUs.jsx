@@ -1,5 +1,5 @@
 import React from "react";
-import "../styles/AboutUs.css"; 
+import "../styles/AboutUs.css";
 
 const AboutUs = () => {
   return (
@@ -12,6 +12,7 @@ const AboutUs = () => {
         mission to empower landlords, property managers, and tenants with a
         single platform that takes the hassle out of rental operations.
       </p>
+      <br />
       <p>
         From listing properties to tracking payments and resolving complaints,
         Rento is built to handle every aspect of rental management. With a focus
@@ -37,16 +38,16 @@ const AboutUs = () => {
       <h3>Our Values</h3>
       <ul>
         <li>
-          <strong>Innovation:</strong> Always improving and embracing new
+          <strong>Innovation : </strong> Always improving and embracing new
           technologies.
         </li>
         <li>
-          <strong>Reliability:</strong> Delivering consistent and dependable
+          <strong>Reliability : </strong> Delivering consistent and dependable
           solutions.
         </li>
         <li>
-          <strong>Customer Focus:</strong> Putting landlords and tenants at the
-          heart of everything we do.
+          <strong>Customer Focus : </strong> Putting landlords and tenants at
+          the heart of everything we do.
         </li>
       </ul>
     </div>

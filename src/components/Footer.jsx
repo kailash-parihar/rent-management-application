@@ -7,7 +7,6 @@ const Footer = () => {
   return (
     <footer className="footer">
       <div className="footer-top">
-        
         <p className="footer-description">
           Our recommendations are based on the properties you've viewed and
           saved, as well as the filters you've applied. We track your search
@@ -24,7 +23,7 @@ const Footer = () => {
           you, ensuring your experience is exceptional.
         </p>
       </div>
-
+      <h2>Connect with Us</h2>
       <div className="footer-social-icons">
         <a
           href="https://www.facebook.com"
