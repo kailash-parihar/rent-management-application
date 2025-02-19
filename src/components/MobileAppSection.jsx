@@ -23,7 +23,7 @@ const MobileAppSection = () => {
         <div>
           <a href="/" target="_blank" rel="noopener noreferrer">
             <img
-              src="../src/assets/svg/app-store-badge.svg"
+              src="../assets/svg/app-store-badge.svg"
               type="image/svg+xml"
               alt="Download on the App Store"
             />
@@ -31,7 +31,7 @@ const MobileAppSection = () => {
           &nbsp; &nbsp; &nbsp;
           <a href="/" target="_blank" rel="noopener noreferrer">
             <img
-              src="../src/assets/svg/google-play-badge.svg"
+              src="../assets/svg/google-play-badge.svg"
               type="image/svg+xml"
               alt="Get it on Google Play"
             />

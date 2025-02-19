@@ -37,7 +37,7 @@ const Container = () => {
 
           <div className="right-section">
             <img
-              src="../src/assets/images/manual-vs-automated.png"
+              src="../assets/images/manual-vs-automated.png"
               alt="manual-vs-automated"
               className="image"
             />
@@ -78,7 +78,7 @@ const Container = () => {
           </div>
           <div className="right-section">
             <img
-              src="../src/assets/images/property-management-auto.png"
+              src="../assets/images/property-management-auto.png"
               alt="property-management"
               className="image"
             />

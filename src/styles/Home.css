@@ -55,6 +55,7 @@
     border: 1px solid #ccc;
     border-radius: 2rem;
     font-size: 1.6rem;
+    text-align: center;
 }
 
 .search-button {
