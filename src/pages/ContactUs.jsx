@@ -31,15 +31,26 @@ const ContactUs = () => {
 
       <div className="contact-info">
         <p>
+          <strong>Registered Address:</strong>
+          <br />
+          Near Gas Godown, Gulabpura,Bhilwara, Rajasthan, 311021
+        </p>
+        <hr />
+        <br />
+        <p>
+          <strong>Office Address:</strong> <br />
+          Ganesh Vihar, Near Ridhi Sidhi Circle, Gopalpura Bypass Road, Jaipur,
+          Rajasthan, 302020
+        </p>
+        <hr />
+        <br />
+
+        <p>
           <strong>Email : </strong>
-          <a href="mailto:support@rento.com">support@rento.com</a>.
+          <a href="mailto:support@rentoapp.in">support@rentoapp.in</a>
         </p>
         <p>
-          <strong>Phone:</strong> +91 8955363567
-        </p>
-        <p>
-          <strong>Address:</strong> Near Gas Godown, Gulabpura, Bhilwara,
-          Rajasthan, 311021
+          <strong>WhatsApp : </strong> +91 77423 13567
         </p>
       </div>
 

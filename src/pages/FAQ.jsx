@@ -47,8 +47,7 @@ const FAQ = () => {
       </div>
 
       <p>
-        <strong>Have more questions?</strong> Contact us at{" "}
-        <a href="mailto:support@rento.com">support@rento.com</a>.
+        <strong>Have more questions?</strong> Contact us at <a href="mailto:support@rentoapp.in">support@rentoapp.in</a>.
       </p>
     </div>
   );
