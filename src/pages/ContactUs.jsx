@@ -31,18 +31,12 @@ const ContactUs = () => {
 
       <div className="contact-info">
         <p>
-          <strong>Registered Address:</strong>
+          <strong>Address:</strong>
           <br />
           Near Gas Godown, Gulabpura,Bhilwara, Rajasthan, 311021
         </p>
         <hr />
-        <br />
-        <p>
-          <strong>Office Address:</strong> <br />
-          Ganesh Vihar, Near Ridhi Sidhi Circle, Gopalpura Bypass Road, Jaipur,
-          Rajasthan, 302020
-        </p>
-        <hr />
+       
         <br />
 
         <p>
