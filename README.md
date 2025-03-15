@@ -24,9 +24,11 @@ This platform helps property owners manage their properties with ease, while off
 - React.js (Frontend)
 - RESTful API
 
+# **https://www.rentoapp.in/**
+
 ## 💻 Getting Started:
 
-1. Clone the repository: `git clone https://github.com/kailash-parihar/rent-management-application.git`
+1. Clone the repository: `git clone https://github.com/kailash-parihar/www.rentoapp.in.git`
 2. Install dependencies: `npm install`
 3. Run the application: `npm run dev`
 
@@ -35,6 +37,7 @@ This platform helps property owners manage their properties with ease, while off
 For any inquiries or support, feel free to contact us at &nbsp;&nbsp;
 <a href="https://linkedin.com/in/kailashparihar/" target="blank"><img align="center" src="https://img.shields.io/badge/LinkedIn-0077B5?style=for-the-badge&logo=linkedin&logoColor=white" alt="kailashparihar" /></a> &nbsp;&nbsp;
 <a href="https://wa.me/919649352595" target="blank"><img align="center" src="https://img.shields.io/badge/WhatsApp-25D366?style=for-the-badge&logo=whatsapp&logoColor=white" alt="kailashparihar" />
+
 
 ---
 
